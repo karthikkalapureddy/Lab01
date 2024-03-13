@@ -94,6 +94,7 @@ try{
 
     'Calling Publish-AspNet' | Write-Verbose
     # call Publish-AspNet to perform the publish operation
+    # call Publish-AspNet to perform the publish operation added by bhanu
     Publish-AspNet -publishProperties $publishProperties -packOutput $packOutput
 }
 catch{
